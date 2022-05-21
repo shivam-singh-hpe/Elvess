@@ -17,4 +17,4 @@ Elves is a shared utilities library that contains a wide range of utility functi
    :hidden:
    :caption: Elves Documentation
 
-   api/Elvess
+   Elvess
