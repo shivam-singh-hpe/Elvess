@@ -33,6 +33,7 @@ jobs:
           
       - name: make the sphinx docs
         run: |
+          cd docs
           make clean
           sphinx-apidoc -fMeT -t source/_templates -o source/api .. ../conftest.py
           echo -e "\n.. toctree::\n   :hidden:\n   :caption: Elvess Documentation\n\n   api/Elvess" >> docs/source/index.rst
