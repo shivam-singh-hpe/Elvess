@@ -1,6 +1,6 @@
 pytest
 hvac==0.10.5
 requests==2.24.0
-requests_toolbelts
+requests-toolbelt
 boto3
 moto
