@@ -30,12 +30,11 @@ jobs:
         run: |
           python -m pip install sphinx
           python -m pip install furo
-          python -m pip install sphinx-autoapi
           
       - name: make the sphinx docs
         run: |
           make -C docs clean
-          #sphinx-apidoc -fMeT -t source/_templates -o source .. ../conftest.py
+          sphinx-apidoc -fMeT -t source/_templates -o source/api .. ../conftest.py
           make -C docs html
           
       - name: Init new repo in dist folder and commit generated files
