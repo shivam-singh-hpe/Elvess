@@ -33,9 +33,10 @@ jobs:
           
       - name: make the sphinx docs
         run: |
-          make -C docs clean
+          make clean
           sphinx-apidoc -fMeT -t source/_templates -o source/api .. ../conftest.py
-          make -C docs html
+          echo -e "\n.. toctree::\n   :hidden:\n   :caption: Elvess Documentation\n\n   api/Elvess" >> docs/source/index.rst
+          make html
           
       - name: Init new repo in dist folder and commit generated files
         run: |

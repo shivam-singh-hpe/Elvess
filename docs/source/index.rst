@@ -12,9 +12,3 @@ Elves is a shared utilities library that contains a wide range of utility functi
    :caption: Configuration
 
    documentation
-
-.. toctree::
-   :hidden:
-   :caption: Elves Documentation
-
-   api/Elvess
