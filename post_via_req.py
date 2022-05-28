@@ -24,8 +24,6 @@ def post_asup_to_nsdiag(serial_number, dmp_dir, dmp_file, dmp_type, url, **kwarg
     dmp_size = str(os.path.getsize(dmp_data))
     job_id = "0"
 
-    print(dmp_data)
-
     headers = {
         "Nsdiag-Serial": serial_number,
         "Nsdiag-Size": dmp_size,
