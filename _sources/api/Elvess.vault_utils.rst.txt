@@ -1,0 +1,7 @@
+Elvess.vault\_utils module
+==========================
+
+.. automodule:: Elvess.vault_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

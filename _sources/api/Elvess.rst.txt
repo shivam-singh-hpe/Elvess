@@ -1,0 +1,20 @@
+Elvess package
+==============
+
+.. automodule:: Elvess
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   Elvess.aws
+   Elvess.harmony_utils
+   Elvess.iam_utils
+   Elvess.index_generator
+   Elvess.post_via_req
+   Elvess.vault_utils

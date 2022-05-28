@@ -1,0 +1,7 @@
+Elvess.harmony\_utils module
+============================
+
+.. automodule:: Elvess.harmony_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

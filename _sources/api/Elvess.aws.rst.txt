@@ -1,0 +1,7 @@
+Elvess.aws module
+=================
+
+.. automodule:: Elvess.aws
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+Elvess.index\_generator module
+==============================
+
+.. automodule:: Elvess.index_generator
+   :members:
+   :undoc-members:
+   :show-inheritance:
